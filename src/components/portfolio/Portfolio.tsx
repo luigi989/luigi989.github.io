@@ -7,6 +7,7 @@ import SectionHeader from '../shared/SectionHeader';
 import PortfolioCard from './PortfolioCard';
 import ProjectContainer from './ProjectContainer';
 import { useTranslation } from 'react-i18next';
+import { portfolio } from '../../data/data';
 
 interface PortfolioProps {
   snap: string;
@@ -26,13 +27,7 @@ const Portfolio = ({ visibilityRef, snap }: PortfolioProps) => {
   const { t } = useTranslation();
   const projectChosen: projectType = useRecoilValue(chosenProjectInfo);
   const setChosenProjectInfo = useSetRecoilState(chosenProjectInfo);
-  const [projects, setProjects] = useState<projectType[]>([]);
-
-  const initProjects = async () => {
-    const response = await fetch("https://ludviglindahl.me/all");
-    const json = await response.json();
-    setProjects(json);
-  }
+  const [projects, setProjects] = useState<projectType[]>(portfolio);
 
   const onClick = (filename: string) => {
     projects.map((project: projectType) => {
@@ -67,25 +62,6 @@ const Portfolio = ({ visibilityRef, snap }: PortfolioProps) => {
     }
     return url;
   }
-
-  useEffect(() => {
-    initProjects();
-  }, [])
-
-  const [props, api] = useSpring(
-    () => ({
-      from: { opacity: 0 },
-      to: { opacity: 1 },
-      delay: 0,
-    }),
-  )
-
-  // const handleClick = () => {
-  //     api.start({
-  //         from: { x: 0, },
-  //         to: { x: 100, },
-  //     })
-  // }
 
   return (
     <section ref={visibilityRef} id='portfolio'
