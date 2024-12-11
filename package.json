@@ -5,7 +5,7 @@
   "homepage": "https://luigi989.github.io",
   "type": "module",
   "scripts": {
-    "predeploy": "vite build",
+    "predeploy": "vite build --outDir build",
     "deploy": "gh-pages -d build",
     "dev": "vite --host",
     "build": "tsc && vite build",
