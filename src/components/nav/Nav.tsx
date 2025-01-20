@@ -10,6 +10,7 @@ import { darkModeState } from "../../atoms/atoms";
 import NavItem from "./NavItem";
 import SwapButton from "./SwapButton";
 import { sections } from "../../data/data";
+import SwedishInput from "../../assets/swedishInput.svg?react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 
@@ -100,7 +101,7 @@ const Nav = () => {
         onClickP={(e) => {
           setCurrentLocale();
         }}
-        icon1={<CgSweden className="swap-off fill-current w-6 h-6" />}
+        icon1={<SwedishInput className="swap-off fill-current w-6 h-6" />}
         icon2={<RiEnglishInput className="swap-on fill-current w-6 h-6" />}
       />
       <SwapButton
