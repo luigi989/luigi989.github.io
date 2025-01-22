@@ -98,7 +98,6 @@ const Nav = () => {
       <SwapButton
         className={navVisible ? "visible" : "invisible lg:visible"}
         title={t('nav.switchLang')}
-        ariaLabel={t('nav.switchLang')}
         onClickP={(e) => {
           setCurrentLocale();
         }}
@@ -108,7 +107,6 @@ const Nav = () => {
       <SwapButton
         className={navVisible ? "visible" : "invisible lg:visible"}
         title={t('nav.switchColor')}
-        ariaLabel={t('nav.switchColor')}
         onClick={setDarkMode}
         icon1={<BiMoon className="swap-on fill-current w-6 h-6" />}
         icon2={<ImSun className="swap-off fill-current w-6 h-6" />}
@@ -116,7 +114,6 @@ const Nav = () => {
 
       <SwapButton
         title={t('nav.openMenu')}
-        ariaLabel={t('nav.openMenu')}
         mobile
         onClickP={(e) => {
           setNavVisible((e.target as HTMLInputElement).checked);
