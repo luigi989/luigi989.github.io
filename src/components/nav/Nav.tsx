@@ -3,10 +3,10 @@ import { BiMoon } from "react-icons/bi";
 import { ImSun } from "react-icons/im";
 import { FiMenu } from "react-icons/fi";
 import { RiEnglishInput } from 'react-icons/ri';
-import { CgSweden } from 'react-icons/cg';
 import { IoMdClose } from "react-icons/io";
-import { useSetRecoilState } from "recoil";
+import { useSetRecoilState, useRecoilValue } from "recoil";
 import { darkModeState } from "../../atoms/atoms";
+import { actioveSection } from "../../atoms/atoms"
 import NavItem from "./NavItem";
 import SwapButton from "./SwapButton";
 import { sections } from "../../data/data";
@@ -18,6 +18,8 @@ const Nav = () => {
   const { t, i18n } = useTranslation();
   const [navVisible, setNavVisible] = useState(false);
   const setIsDark = useSetRecoilState(darkModeState);
+  const setActiveSection = useSetRecoilState(actioveSection);
+  const activeSection = useRecoilValue(actioveSection);
 
   const getLanguage = () => i18next.language || window.localStorage.i18nextLng;
 
@@ -87,8 +89,7 @@ const Nav = () => {
           <NavItem
             key={section.title}
             href={section.link}
-            title={t(section.title)}
-            ariaLabel={t(section.title)}
+            title={section.title}
             icon={section.icon}
           />
         ))}

@@ -55,35 +55,35 @@ function App() {
   useEffect(() => {
     if (inViewHeader) {
       window.history.replaceState({}, '', '#');
-      setActiveSection(t('sections.home'));
+      setActiveSection('sections.home');
     }
   }, [inViewHeader])
 
   useEffect(() => {
     if (inViewAbout) {
       window.history.replaceState({}, '', '#about');
-      setActiveSection(t('sections.about'));
+      setActiveSection('sections.about');
     }
   }, [inViewAbout])
 
   useEffect(() => {
     if (inViewExperince) {
       window.history.replaceState({}, '', '#experience');
-      setActiveSection(t('sections.experience'));
+      setActiveSection('sections.experience');
     }
   }, [inViewExperince])
 
   useEffect(() => {
     if (inViewPortfolio) {
       window.history.replaceState({}, '', '#portfolio');
-      setActiveSection(t('sections.portfolio'));
+      setActiveSection('sections.portfolio');
     }
   }, [inViewPortfolio])
 
   useEffect(() => {
     if (inViewContact) {
       window.history.replaceState({}, '', '#contact');
-      setActiveSection(t('sections.contact'));
+      setActiveSection('sections.contact');
     }
   }, [inViewContact])
 
