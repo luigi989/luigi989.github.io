@@ -79,7 +79,6 @@ declare const _default: {
         "subtitle": "My recent work",
         "loading": "Loading data",
         "readMore": "Read more",
-        "liveDemo": "Live demo",
         "project": {
             "toolsUsed": "Tools used",
             "close": "Back",

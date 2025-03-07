@@ -6,7 +6,6 @@ export declare const sections: {
 export declare const portfolio: {
     title: string;
     github_link: string;
-    live_demo: string;
     tags: string[];
     description: string;
     link: string;

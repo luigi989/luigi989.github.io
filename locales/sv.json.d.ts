@@ -79,7 +79,6 @@ declare const _default: {
         "subtitle": "Mina projekt",
         "loading": "Laddar data",
         "readMore": "Läs mer",
-        "liveDemo": "Live demo",
         "project": {
             "toolsUsed": "Använda tillägg",
             "close": "Tillbaka",
