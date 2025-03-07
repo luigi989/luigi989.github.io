@@ -17,7 +17,6 @@ interface PortfolioProps {
 interface projectType {
   title: string;
   github_link: string;
-  live_demo: string
   tags: string[];
   description: string;
   link: string;
@@ -48,7 +47,6 @@ const Portfolio = ({ visibilityRef, snap }: PortfolioProps) => {
       description: '',
       tags: [],
       github_link: '',
-      live_demo: '',
       link: '',
     });
   }
@@ -94,7 +92,6 @@ const Portfolio = ({ visibilityRef, snap }: PortfolioProps) => {
             <PortfolioCard
               key={project.title}
               header={project.title}
-              demoLink={project.live_demo}
               onClick={() => onClick(project.link)}
               path={createImgURL(project.link, '-sm')}
               path1x={createImgURL(project.link, '-xs')}

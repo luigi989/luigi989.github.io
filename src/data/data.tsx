@@ -18,14 +18,13 @@ export const portfolio =
         { 
             title: 'Periodic', 
             github_link: 'https://github.com/luigi989/periodic', 
-            live_demo: '', tags: ['React', 'TypeScript', 'Tailwind'], 
+            tags: ['React', 'TypeScript', 'Tailwind'], 
             description: 'Periodic is an interactive model over the periodic system.', 
             link: "periodic"
         },
         { 
             title: 'MealPlanner', 
             github_link: 'https://github.com/luigi989/periodic', 
-            live_demo: '', 
             tags: ['Flutter', 'Dart'], 
             description: 'App for planning meals.', 
             link: "mealPlanner"
@@ -33,7 +32,6 @@ export const portfolio =
         { 
             title: 'SpaceQ', 
             github_link: 'https://github.com/HawkieOne/space-app', 
-            live_demo: '', 
             tags: ['NextJs', 'Tailwind', 'Recoil'], 
             description: 'SpaceQ fetches data from an API about happenings regarding human events in space.', 
             link: "spaceq"
@@ -41,7 +39,6 @@ export const portfolio =
         { 
             title: 'Kurskatalog', 
             github_link: 'https://github.com/HawkieOne/kurskatalog-id', 
-            live_demo: '', 
             tags: ['TypeScript', 'Tailwind', 'DaisyUI'], 
             description: 'A tool for planning your education.', 
             link: "kurskatalog"
@@ -49,7 +46,6 @@ export const portfolio =
         { 
             title: 'Ragnarok', 
             github_link: 'https://github.com/luigi989/ragnarok', 
-            live_demo: '', 
             tags: ['React'], 
             description: 'Website about nordic mythology.', 
             link: "ragnarok"

@@ -1,9 +1,7 @@
 import { useTranslation } from "react-i18next";
-import DemoButton from "./DemoButton";
 
 interface PortfolioCardProps {
   header: string;
-  demoLink?: string;
   path: string;
   onClick: () => void;
   path1x: string;
@@ -14,7 +12,6 @@ interface PortfolioCardProps {
 
 const PortfolioCard = ({
   header,
-  demoLink,
   path,
   onClick,
   path1x,
@@ -50,7 +47,6 @@ const PortfolioCard = ({
         >
           {t("portfolio.readMore")}
         </button>
-        {demoLink && <DemoButton link={demoLink} />}
       </div>
     </article>
   );

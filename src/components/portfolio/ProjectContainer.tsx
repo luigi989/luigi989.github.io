@@ -1,7 +1,6 @@
 import { useRecoilValue } from "recoil";
 import { chosenProjectInfo } from "../../atoms/atoms";
 import GithubButton from "./GithubButton";
-import DemoButton from "./DemoButton";
 import { useTranslation } from "react-i18next";
 
 interface ProjectContainerProps {

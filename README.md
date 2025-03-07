@@ -2,7 +2,7 @@
 
 ![Header Image](public/portfolio.webp)
 
-This is a website with I show my skills, experience, completed and ongoing projects. It is like a live portfolio. I try to keep everything up to date. All the listed projects have a github page and the completed projects have a live demo up and running. This website also is mobile friendly. The design used is based on a the following [video](https://www.youtube.com/watch?v=G-Cr00UYokU&t=10s)
+This is a website with I show my skills, experience, completed and ongoing projects. It is like a live portfolio. I try to keep everything up to date. All the listed projects have a github page. This website also is mobile friendly. The design used is based on a the following [video](https://www.youtube.com/watch?v=G-Cr00UYokU&t=10s)
 
 [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org)
 [![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
