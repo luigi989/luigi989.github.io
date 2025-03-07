@@ -31,7 +31,7 @@ declare const _default: {
     "about": {
         "title": "Om mig",
         "subtitle": "Mer info",
-        "description": "Studerar för mot att bli en civilingejör inom teknisk datavetenskap. PÅ fritiden gillar jag att klättra, spela squash eller ute på en springtur. Bygga pussel är också en hobby som jag tyvärr inte hittar tid för. Har flera kodningprojekt som jag håller på med.",
+        "description": "Jag studerar inom civilingejörsprogammet för teknisk datavetenskap, just nu inne på fjärde året. På fritiden gillar jag att klättra, spela squash eller att vara ute på en springtur. Bygga pussel är också en hobby som jag tyvärr inte hittar tid för. Har flera kodningprojekt som jag håller på med.",
         "area": {
             "title": "Teknisk datavetenskap",
             "subtitle": "studerat 4+ år"
@@ -81,8 +81,26 @@ declare const _default: {
         "readMore": "Läs mer",
         "liveDemo": "Live demo",
         "project": {
+            "toolsUsed": "Använda tillägg",
             "close": "Tillbaka",
             "image": "Projectbild"
+        },
+        "projects": {
+            "periodic": {
+                "description": "Periodic är ett interaktivt system som visar det periodiska systemet."
+            },
+            "mealplanner": {
+                "description": "App för att planera maträtter under veckan."
+            },
+            "spaceq": {
+                "description": "SpaceQ visar händelser relaterat till människors utforskning av rymden."
+            },
+            "kurskatalog": {
+                "description": "A verkyyg för att lägga upp ditt kursschema till dina studier."
+            },
+            "ragnarok": {
+                "description": "Hemsida för nordisk mytologi."
+            }
         }
     },
     "contact": {
