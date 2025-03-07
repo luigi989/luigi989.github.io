@@ -11,7 +11,7 @@ interface ProjectContainerProps {
 const ProjectContainer = ({ onClick }: ProjectContainerProps) => {
   const { t } = useTranslation();
   const projectInfo = useRecoilValue(chosenProjectInfo);
-  console.log(projectInfo.tags)
+  console.log(projectInfo);
   return (
     <div
       className="p-5 rounded-2xl md:rounded-none md:rounded-r-2xl flex flex-col
@@ -19,10 +19,10 @@ const ProjectContainer = ({ onClick }: ProjectContainerProps) => {
     >
       <div className="flex flex-col-reverse md:flex-row space-x-4 justify-between">
         <div className="w-full md:w-1/2 flex flex-col justify-between">
-          <p>{projectInfo.description}</p>
+          <p>{t('portfolio.projects.' + projectInfo.link.toLowerCase() + '.description')}</p>
           <div className="flex flex-col py-4">
             <h2 className="text-xl text-liLight dark:text-primaryAlt">
-              Built with:
+              {t("portfolio.project.toolsUsed")}
             </h2>
             <ul>
               {projectInfo.tags.map((tag) => (
@@ -36,9 +36,6 @@ const ProjectContainer = ({ onClick }: ProjectContainerProps) => {
           <div className="flex p-2 space-x-2">
             {projectInfo.github_link && (
               <GithubButton link={projectInfo.github_link} />
-            )}
-            {projectInfo.live_demo && (
-              <DemoButton link={projectInfo.live_demo} />
             )}
           </div>
         </div>

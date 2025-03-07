@@ -81,8 +81,26 @@
         "readMore": "Read more",
         "liveDemo": "Live demo",
         "project": {
+            "toolsUsed": "Tools used",
             "close": "Back",
             "image": "Project image"
+        },
+        "projects": {
+            "periodic": {
+                "description": "Periodic is an interactive model over the periodic system."
+            },
+            "mealplanner": {
+                "description": "App for planning meals."
+            },
+            "spaceq": {
+                "description": "SpaceQ fetches data from an API about happenings regarding human events in space."
+            },
+            "kurskatalog": {
+                "description": "A tool for planning your education."
+            },
+            "ragnarok": {
+                "description": "Website about nordic mythology."
+            }
         }
     },
     "contact": {

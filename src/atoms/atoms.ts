@@ -15,10 +15,8 @@ export const chosenProjectInfo = atom({
    default: {
       title: '',
       github_link: '',
-      live_demo: '',
       tags: [''],
       description: '',
       link: '',
-      // imgPath: ''
    },
 })

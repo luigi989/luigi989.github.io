@@ -65,7 +65,7 @@ function About({ visibilityRef, snap }: AboutProps) {
             />
           </div>
 
-          <p className="p-2 mt-4 lg:mt-6 mx-0 mb-5 lg:mb-10 text-liSec bg-liBg dark:text-light dark:bg-transparent">
+          <p className="p-2 mt-4 lg:mt-6 mx-0 mb-5 lg:mb-4 text-liSec bg-liBg dark:text-light dark:bg-transparent">
             {t("about.description")}
           </p>
 
