@@ -16,7 +16,6 @@ export const chosenProjectInfo = atom({
       title: '',
       github_link: '',
       tags: [''],
-      description: '',
       link: '',
    },
 })

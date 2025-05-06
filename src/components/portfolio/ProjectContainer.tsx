@@ -20,7 +20,7 @@ const ProjectContainer = ({ onClick }: ProjectContainerProps) => {
         <div className="w-full md:w-1/2 flex flex-col justify-between">
           <p>{t('portfolio.projects.' + projectInfo.link.toLowerCase() + '.description')}</p>
           <div className="flex flex-col py-4">
-            <h2 className="text-xl text-liLight dark:text-primaryAlt">
+            <h2 className="text-xl text-liPrimary dark:text-primaryAlt">
               {t("portfolio.project.toolsUsed")}
             </h2>
             <ul>

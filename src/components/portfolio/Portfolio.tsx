@@ -18,7 +18,6 @@ interface projectType {
   title: string;
   github_link: string;
   tags: string[];
-  description: string;
   link: string;
 }
 
@@ -44,7 +43,6 @@ const Portfolio = ({ visibilityRef, snap }: PortfolioProps) => {
   const closeProject = () => {
     setChosenProjectInfo({
       title: '',
-      description: '',
       tags: [],
       github_link: '',
       link: '',
