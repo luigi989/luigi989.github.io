@@ -19,35 +19,30 @@ export const portfolio =
             title: 'Periodic', 
             github_link: 'https://github.com/luigi989/periodic', 
             tags: ['React', 'TypeScript', 'Tailwind'], 
-            description: 'Periodic is an interactive model over the periodic system.', 
             link: "periodic"
         },
         { 
             title: 'MealPlanner', 
             github_link: 'https://github.com/luigi989/periodic', 
             tags: ['Flutter', 'Dart'], 
-            description: 'App for planning meals.', 
             link: "mealPlanner"
         },
         { 
             title: 'SpaceQ', 
             github_link: 'https://github.com/HawkieOne/space-app', 
             tags: ['NextJs', 'Tailwind', 'Recoil'], 
-            description: 'SpaceQ fetches data from an API about happenings regarding human events in space.', 
             link: "spaceq"
         },
         { 
             title: 'Kurskatalog', 
             github_link: 'https://github.com/HawkieOne/kurskatalog-id', 
             tags: ['TypeScript', 'Tailwind', 'DaisyUI'], 
-            description: 'A tool for planning your education.', 
             link: "kurskatalog"
         },
         { 
             title: 'Ragnarok', 
             github_link: 'https://github.com/luigi989/ragnarok', 
             tags: ['React'], 
-            description: 'Website about nordic mythology.', 
             link: "ragnarok"
         },
     ];

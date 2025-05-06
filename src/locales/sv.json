@@ -86,19 +86,19 @@
         },
         "projects": {
             "periodic": {
-                "description": "Periodic är ett interaktivt system som visar det periodiska systemet."
+                "description": "Periodic är ett interaktivt system som visar det periodiska systemet. Användaren kan enkelt hitta mer information om det önskade elementet i systemet. Verktyg för att filtrera i rader och column finns att använda."
             },
             "mealplanner": {
-                "description": "App för att planera maträtter under veckan."
+                "description": "En app som en användare kan använda för att planera sina måltider under veckan. Är ett utmärkt verktyg för att organisera måltiderna på ett eneklt och effektivt sätt."
             },
             "spaceq": {
-                "description": "SpaceQ visar händelser relaterat till människors utforskning av rymden."
+                "description": "SpaceQ visar händelser relaterat till människors utforskning av rymden geom använding av ett externt api. Alla interessanta, både nya och gamla, händelser kan hittas här. Det kan vara information om astronauter eller till och med gamla rymdstationer."
             },
             "kurskatalog": {
-                "description": "A verkyyg för att lägga upp ditt kursschema till dina studier."
+                "description": "A verktyg för att lägga upp din utbildning. Är speciellt framtaget för användning inom programmet Interaktion och Design på Umeå universitet. Men andra kurser kan läggas till av anvädaren. Med detta verktyg kommer du få en enkelt överblick över de kurser du kommer läsa."
             },
             "ragnarok": {
-                "description": "Hemsida för nordisk mytologi."
+                "description": "Hemsida för information omnordisk mytologi som inte är klar ännu. Tanken är att du ska kunna söka information om gudar och andra väsen inom nordisk mytologi här."
             }
         }
     },
