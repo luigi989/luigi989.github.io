@@ -7,7 +7,6 @@ export declare const portfolio: {
     title: string;
     github_link: string;
     tags: string[];
-    description: string;
     link: string;
 }[];
 export declare const socials: {

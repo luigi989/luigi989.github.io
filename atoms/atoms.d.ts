@@ -4,6 +4,5 @@ export declare const chosenProjectInfo: import('recoil').RecoilState<{
     title: string;
     github_link: string;
     tags: string[];
-    description: string;
     link: string;
 }>;

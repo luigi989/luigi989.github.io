@@ -86,19 +86,19 @@ declare const _default: {
         },
         "projects": {
             "periodic": {
-                "description": "Periodic is an interactive model over the periodic system."
+                "description": "Periodic is an interactive model over the periodic system. The user can easily find more information about the desired element in the table. Tools for filtering the rows and columns can also be used."
             },
             "mealplanner": {
-                "description": "App for planning meals."
+                "description": "An app where the user can plan their meals during the week. A great way of organizing the meals in an easy and effective way."
             },
             "spaceq": {
-                "description": "SpaceQ fetches data from an API about happenings regarding human events in space."
+                "description": "SpaceQ fetches data from an API about happenings regarding human events in space. All notable, both recent and old, information can be found. It could be about astronauts or even old space stations."
             },
             "kurskatalog": {
-                "description": "A tool for planning your education."
+                "description": "A tool for planning your education, specially designed for use in the programme Interaktion & Design. Other courses can be added by the user. By using this tool you can get an easy overview over the courses that you will read."
             },
             "ragnarok": {
-                "description": "Website about nordic mythology."
+                "description": "Unfinished website about nordic mythology. Information about gods and other beings in this universe will be present at a later date."
             }
         }
     },
